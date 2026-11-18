@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Collega NuvHome",
+        "description": "Su NuvHome apri Profilo, poi Privacy e dati, e premi «Crea chiave per Home Assistant». Incolla qui la chiave.",
+        "data": { "base_url": "Indirizzo di NuvHome", "api_key": "Chiave" }
+      },
+      "reauth_confirm": {
+        "title": "Serve una nuova chiave",
+        "description": "La chiave è stata revocata o non vale più. Creane una nuova su NuvHome e incollala qui.",
+        "data": { "api_key": "Chiave" }
+      }
+    },
+    "error": {
+      "invalid_auth": "La chiave non è valida o è stata revocata.",
+      "cannot_connect": "Non riesco a raggiungere NuvHome. Controlla l'indirizzo e la connessione."
+    },
+    "abort": {
+      "already_configured": "Questa chiave è già collegata.",
+      "reauth_successful": "Chiave aggiornata."
+    }
+  }
+}
