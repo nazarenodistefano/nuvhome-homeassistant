@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect NuvHome",
+        "description": "In NuvHome open Profile, then Privacy and data, and press \"Crea chiave per Home Assistant\". Paste the key here.",
+        "data": { "base_url": "NuvHome address", "api_key": "Key" }
+      },
+      "reauth_confirm": {
+        "title": "A new key is needed",
+        "description": "The key was revoked or is no longer valid. Create a new one in NuvHome and paste it here.",
+        "data": { "api_key": "Key" }
+      }
+    },
+    "error": {
+      "invalid_auth": "The key is not valid or was revoked.",
+      "cannot_connect": "Cannot reach NuvHome. Check the address and your connection."
+    },
+    "abort": {
+      "already_configured": "This key is already connected.",
+      "reauth_successful": "Key updated."
+    }
+  }
+}
