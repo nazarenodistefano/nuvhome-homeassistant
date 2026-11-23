@@ -39,4 +39,4 @@ automation:
 
 ## Cartella
 
-Il componente sta in `custom_components/nuvhome/`. Il servizio che risponde sta in NuvHome (`/api/integrations/home-assistant/summary`).
+Il componente sta in `custom_components/nuvhome/`. L'icona sta in `custom_components/nuvhome/brand/` (Home Assistant la legge da li per le integrazioni personalizzate). Il servizio che risponde sta in NuvHome (`/api/integrations/home-assistant/summary`).
